@@ -1,6 +1,6 @@
-body {background-color: coral;
-}
-
-body{
-border-radius: 30px;
+body {
+    background-color: #89CFF0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border-radius: 30px;
 }
