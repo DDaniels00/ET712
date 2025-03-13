@@ -10,4 +10,9 @@ btnpressme.addEventListener("click", function(){
   if(btnpressme.textContent === "PRESS ME"){
 btnpressme.textContent = "Button was pressed!"
 }
+else{
+  e.target.textContent = "PRESS ME"
+}
+//toggle between class 'btnactive' and 'btnpressme'
+e.target.classlist.toggle("btnactive")
 })
