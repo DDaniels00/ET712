@@ -47,3 +47,17 @@ bottom: 0%
 left: 0%
 right: 0%
 }
+.modalcontent{
+  width: 60%
+height: 70%
+margin: 10% auto;
+background-color: white;
+}
+.modalheader{
+background-color: lightgrey;
+display: flex;
+text-align: center;
+)
+.closex:hover:
+  color: crimsion;
+}
