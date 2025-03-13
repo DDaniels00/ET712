@@ -39,3 +39,11 @@ padding: 1em ;
 .linkreadmore:hover{
   background-color: crimson;
 }
+.modalwindow{
+  background-color: rgba(100,100,100, 0.6);
+  position: fixed;
+top: 0%;
+bottom: 0%
+left: 0%
+right: 0%
+}
