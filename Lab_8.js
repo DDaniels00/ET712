@@ -37,5 +37,5 @@ let linkqcc = document.querySelector(".linkqcc")
 linkqcc.addEventListen("click", function(event){
   event.preventDefault()
   alert("QCC website is off")
-
+})
 
