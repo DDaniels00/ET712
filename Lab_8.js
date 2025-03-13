@@ -33,6 +33,9 @@ if(event.target.tagName.toLowerCase() === 'li'){
 *example 3: prevent default 
 */
 // collect the element
-let linqcc = document.querySelector(".linkqcc")
+let linkqcc = document.querySelector(".linkqcc")
+linkqcc.addEventListen("click", function(event){
+  event.preventDefault()
+  alert("QCC website is off")
 
 
