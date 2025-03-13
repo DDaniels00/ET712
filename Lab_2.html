@@ -69,8 +69,17 @@ console.log('\n------- Example 5: isNaN function in JS -------');
         }
 
         console.log('\n------- Example 6: logical operators in JS -------');
-        let password = prompt("Enter a password");
+let password = prompt("Enter a password");
         password = password.trim(); // remove whitespace before and after the password
+        // test if the password has 6+ characters and no whitespace in between characters
+        if(password.length >= 6 && password.indexOf(" ") === -1){
+            console.log(`${password} is valid`);
+        }
+        else{
+            console.log(`ERROR! ${password} is NOT in the right format`);
+        }
+        console.log('\n------ EXERCISE ------ ');
+    </script>
     </script>
 </body>
 </html>
