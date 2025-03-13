@@ -29,3 +29,10 @@ let fruitist = document.querySelector(#fruitlist")
 if(event.target.tagName.toLowerCase() === 'li'){
 }
   })
+/**
+*example 3: prevent default 
+*/
+// collect the element
+let linqcc = document.querySelector(".linkqcc")
+
+
