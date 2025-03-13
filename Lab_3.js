@@ -14,15 +14,17 @@ console.log("\n------ Example 2: for loop with conditional statement ------");
 // collect the initial value from the user
 // print all even numbers between the initial value and 20
 let initialvalue = parseInt(prompt("Enter initial value: "));
-for (initialvalue; initialvalue <= 20; initialvalue++) {
+for (; initialvalue <= 20; initialvalue++) {
     if (initialvalue % 2 == 0) {
         console.log(initialvalue); // only print even numbers
     }
- console.log("\n----- Example 3: for loop as decrement counter ------");
-        // for loop to print from 9 to 0 in a step of 3 --> 9 6 3 0
-        for (let n = 9; n >= 0; n -= 3) {
-            console.log(n);
-        }
+}
+
+console.log("\n----- Example 3: for loop as decrement counter ------");
+// for loop to print from 9 to 0 in a step of 3 --> 9 6 3 0
+for (let n = 9; n >= 0; n -= 3) {
+    console.log(n);
+}
 
 console.log("\n------ Example 4: for loop in an array(list) ------");
 // set up a list of animals
@@ -39,7 +41,8 @@ for (let index = 0; index < numbers.length; index++) {
     if (numbers[index] < 0) {
         counterNegative++;
     }
-console.log(`There is/are ${counternegative} negative number/s in list 'numbers'`);
+}
+console.log(`There is/are ${counterNegative} negative number/s in list 'numbers'`);
 
 console.log("\n------ Example 5: for loop in a string ------");
 let username = "Peter Pan, neverland";
@@ -55,5 +58,4 @@ console.log(`There is/are ${counter_e} letter e in 'username'`);
 
 console.log("\n------ EXERCISE FOR LOOP ------");
 let num = [-3, 10, 0, 8, -9, 5, -2, 8, 6, -1];
-}
-
+// Add any required operations here
