@@ -9,3 +9,16 @@
   background-color: crimson;
   font-weight: bolder;
 }
+
+/*example 2*/
+#fruitlist li{
+list-style: none;
+border-bottom: 1px solid lightgrey;
+width: 200px;
+  padding: 1em 2em;
+  background-color: beige;
+}
+#fruitlist li:hover{
+  background-color: crimson;
+color: antiquewhite;
+}
