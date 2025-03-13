@@ -1,1 +1,11 @@
-
+/*example 1*/
+.btnpressme{
+  display: block;
+  padding: 1em 3em;
+  border-radius: 10px;
+  background-color: goldenrod;
+}
+.btnactive{
+  background-color: crimson;
+  font-weight: bolder;
+}
