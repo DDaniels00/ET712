@@ -56,6 +56,21 @@ console.log('\n------- Example 4: if-else statement in JS ------- ');
         } else {
             console.log("Can't be compared!");
         }
+console.log('\n------- Example 5: isNaN function in JS -------');
+        let userinput = prompt("Enter a number: ");
+        let checkinput = isNaN(parseInt(userinput)); // check if the userinput is NOT a numerical value
+
+        console.log(checkinput);
+
+        if (checkinput) {
+            console.log(`${userinput} is NOT a number`);
+        } else {
+            console.log(`${userinput} is a number`);
+        }
+
+        console.log('\n------- Example 6: logical operators in JS -------');
+        let password = prompt("Enter a password");
+        password = password.trim(); // remove whitespace before and after the password
     </script>
 </body>
 </html>
