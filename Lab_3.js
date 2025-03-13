@@ -58,4 +58,4 @@ console.log(`There is/are ${counter_e} letter e in 'username'`);
 
 console.log("\n------ EXERCISE FOR LOOP ------");
 let num = [-3, 10, 0, 8, -9, 5, -2, 8, 6, -1];
-// Add any required operations here
+
