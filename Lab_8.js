@@ -16,3 +16,16 @@ else{
 //toggle between class 'btnactive' and 'btnpressme'
 e.target.classlist.toggle("btnactive")
 })
+
+
+  /**
+  * Example 2
+  */
+// remove the <li> if it is clicked 
+// collect the element
+let fruitist = document.querySelector(#fruitlist")
+//fruitlist.addEventListener("click", function(event){
+// check if the clicked elemement is a 'li'
+if(event.target.tagName.toLowerCase() === 'li'){
+}
+  })
