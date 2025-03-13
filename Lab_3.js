@@ -24,9 +24,36 @@ for (initialvalue; initialvalue <= 20; initialvalue++) {
             console.log(n);
         }
 
-        console.log("\n----- Example 4: for loop in an array (list) ------");
-        // set up a list of animals
-        let animals = ["fish", "turtle", "dog"];
-        for (let index = 0; index < animals.length; index++) {
-            console.log(animals[index]);
-        }
+console.log("\n------ Example 4: for loop in an array(list) ------");
+// set up a list of animals
+let animals = ["fish", "turtle", "dog"];
+for (let index = 0; index < animals.length; index++) {
+    console.log(animals[index]);
+}
+
+// set up a list of numbers
+// count how many negative numbers are in the list
+let numbers = [5, -3, 10, -9, 2];
+let counterNegative = 0;
+for (let index = 0; index < numbers.length; index++) {
+    if (numbers[index] < 0) {
+        counterNegative++;
+    }
+console.log(`There is/are ${counternegative} negative number/s in list 'numbers'`);
+
+console.log("\n------ Example 5: for loop in a string ------");
+let username = "Peter Pan, neverland";
+let counter_e = 0;
+
+for (let index = 0; index < username.length; index++) {
+    // Find the total number of letter 'e' in username
+    if (username[index] === 'e') {
+        counter_e++;
+    }
+}
+console.log(`There is/are ${counter_e} letter e in 'username'`);
+
+console.log("\n------ EXERCISE FOR LOOP ------");
+let num = [-3, 10, 0, 8, -9, 5, -2, 8, 6, -1];
+}
+
