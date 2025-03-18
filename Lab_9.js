@@ -30,3 +30,13 @@ btnright.addEvenListener("click, function(){
 btnleft.addEvenListener("click", function(){
 scrollgallery(-600)
 })
+/**
+*example 3
+*/
+
+let topcontainer= document.querySelector(".topcontainer")
+window.addEventListener("scroll", function(){
+let pxTOP = window.screenY
+console.log(pxTop)
+})
+
