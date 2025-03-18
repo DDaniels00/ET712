@@ -8,7 +8,7 @@ padding: 1em;
 
 img{width: 100%; display: block; height: 100%;}
 .maincontainer, .gallerycontainer{
-  width: 600 px
+  width: 600 px;
   height: 800 px;
   margin: auto;
 
@@ -20,7 +20,7 @@ z-index: 0;
 .gallerycontainer{
 position: relative;
 z-index: 1;
-overflow-x scroll;
+overflow-x: scroll;
 white-space: nowrap;
 overflow-y: hidden;
 }
@@ -34,7 +34,7 @@ overflow-y: hidden;
   position: abolute;
   z-index: 2;
   top: 40%
-  font-size: 1.5em;
+  font-size 1.5em;
   padding: 0.5em;
   border: none;
 background-color: rgba(200,200,200,0.6);
@@ -49,26 +49,4 @@ left: 0%;
   background-color: rgba(200,200,200,0.9);
   color: crimson;
 }
-
-/*Example 3 */
-html{scroll-behavior: smooth;}
-.topcontainer{
-width: 60px;
-height: 60px;
-background-color: rgba(200,200,200,0.6);
-position: fixed;
-bottom: 2em;
-right: 2em;
-border-radius: 50%;
-text-align: center;
-}
-.toplink{
-color: black;
-padding-top: 1em;
-display: block;
-text-decoration: none;
-}
-.toplink:hover{
-color: crimson;
-font-weight: bolder;
 }
