@@ -80,7 +80,7 @@ document.querySelector("ps2").addEventListener('click', function() {
     text.fontSize = "25px";
     text.color = "olive";
 
-let div2 = document.querySelectorAll(".divs2")[1]; 
+let div2 = document.querySelector(".divs2")[1]; 
 
 document.addEventListener("keydown", function() {
     div2.width = "300px"
