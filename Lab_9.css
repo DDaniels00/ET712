@@ -15,9 +15,11 @@ img{width: 100%; display: block; height: 100%;}
 }
 maincontainer{
 position: relative;
+z-index: 0;
 
 .gallerycontainer{
 position: relative;
+z-index: 1;
 overflow-x scroll;
 white-space: nowrap;
 overflow-y: hidden;
@@ -26,6 +28,7 @@ overflow-y: hidden;
 }
 .galleryimg{
     display: inline-block;
+  width: 600px;
 }
 .btnright, .btnleft{
   position: abolute;
