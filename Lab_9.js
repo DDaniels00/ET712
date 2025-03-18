@@ -36,7 +36,13 @@ scrollgallery(-600)
 
 let topcontainer= document.querySelector(".topcontainer")
 window.addEventListener("scroll", function(){
-let pxTOP = window.screenY
+let pxTOP = window.scrollY
 console.log(pxTop)
+if(pxTop>100){
+topcontainer.style.display = "block"
+else{
+topcontainer.style.display = "none"
+}
+})
 })
 
