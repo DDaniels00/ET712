@@ -1,1 +1,7 @@
+div.divs2, div.divs3 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px;
+}
 
