@@ -1,1 +1,6 @@
-
+*{box-sizing: borderbox;}
+#content{
+  width: 2000px; /*allow to create horizontal scrolling
+padding: 1em;
+  background-color: chocolate;
+}
