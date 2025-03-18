@@ -37,7 +37,7 @@ let msg = document.querySelector(".msg")
 // Add an event to 'btnmsg' that changes the text content of 'msg'
 btnmsg.addEventListener("click", function() {
     msg.innerHTML = "Good afternoon <b> Prof. Wu </b>"
-});
+})
 
 console.log("\n ---- Example 5: changing shapes mini-app ----")
 
