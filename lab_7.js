@@ -58,6 +58,26 @@ btnrectangle.addEventListener("click", function() {
     shape.className = "rectangle"
 })
 
+//Lab 7 Assignment
+
+// EXERCISE
+// note: use querySelector() or querySelectorAll()
+// collect elements: search for the first p with class ps1
+// add a mouseout event to change the text content to "STUDENT'S FULL NAME"
+// search for the second p with class ps2
+// add a click event to the ps2 to change the font-size to 25px and color to olive when is clicked
+
+//Notes: querySelector(), 
+
+document.querySelector("ps1").addEventListener('mouseout', function() {
+    this.textContent = "STUDENT'S FULL NAME";
+}) //Part 1-3 of Lab 7 Exercise 
+document.querySelector("ps2").addEventListener('click', function() {
+    this.style.fontSize = "25px";
+    this.style.color = "olive";
+})
+
+
 
 
 
