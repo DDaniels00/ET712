@@ -69,12 +69,22 @@ btnrectangle.addEventListener("click", function() {
 
 //Notes: querySelector(), 
 
+let p1 = document.querySelector("ps1")
+
 document.querySelector("ps1").addEventListener('mouseout', function() {
-    this.textContent = "STUDENT'S FULL NAME";
+    text.Content = "STUDENT'S FULL NAME"
 }) //Part 1-3 of Lab 7 Exercise 
+let p2 = document.querySelectorAll("ps2")[1];
+
 document.querySelector("ps2").addEventListener('click', function() {
-    this.style.fontSize = "25px";
-    this.style.color = "olive";
+    text.fontSize = "25px";
+    text.color = "olive";
+
+let div2 = document.querySelectorAll(".divs2")[1]; 
+
+document.addEventListener("keydown", function() {
+    div2.width = "300px"
+
 })
 
 
