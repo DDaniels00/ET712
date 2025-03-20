@@ -12,7 +12,10 @@ let username = document.querySelector("#username")
 let usernamevalue = username.value
 
 //remove whitespace before and after the username
+usernamevalue = username.value
 
+//testing
+console.log(usernamevalue)
 
 })
 
