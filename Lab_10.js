@@ -19,7 +19,7 @@ usernamevalue = username.value
 
   if(usernamevalue===""){
   alert("Please enter a username")
-  return;
+  return; // stops futher executions
   }
   })
 
