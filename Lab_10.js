@@ -42,5 +42,19 @@ greeting.style.display = block
 //clear imput value
 username.value =""
 
+  // validate the password to have 8+ characters
+if(passwordvalue.length < 8){
+errormsg.style.display = "block"
+btnsubmit.disabled = true
+}
+else 
+{
+errormsg.style.display = "none"
+btnsubmit.disabled = false
+}
+})
+
+
+
   })
 
