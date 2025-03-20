@@ -15,7 +15,11 @@ let usernamevalue = username.value
 usernamevalue = username.value
 
 //testing
-console.log(usernamevalue)
+//console.log(usernamevalue)
 
-})
+  if(usernamevalue===""){
+  alert("Please enter a username")
+  return;
+  }
+  })
 
