@@ -21,5 +21,13 @@ usernamevalue = username.value
   alert("Please enter a username")
   return; // stops futher executions
   }
+
+//print the username in the greeting message
+  greetuser.innerHTML = usrnamevalue
+greeting.style.display = block
+
+//clear imput value
+username.value =""
+
   })
 
