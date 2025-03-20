@@ -20,4 +20,9 @@ border-radius: 5px;
 .greeting{
 width: 400px;
 margin: auto;
+display: none;
+}
+.greetuser{
+color: crimson;
+font-weight: bolder;
 }
