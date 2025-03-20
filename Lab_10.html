@@ -10,7 +10,17 @@
   </head>
   <body>
   <form id="my form">
-  <label type="text" id="username" placeholder="Enter username...">
+
+  <section>
+    <label for="username">Username: </label>
+    <label type="text" id="username" placeholder="Enter username...">
+    </section>
+<section class="formcontrol">
+  <label for="password">Password</label>
+  <input type= "password" id="password" name="password"> placeholder="Enter your password"
+  <p class="errormsg"> Password must be 8+ characters long</p>
+</section>
+ 
   <button type="submit" class="btnsubmit">Submit Form</button>
   </form>
 <!------------- Display a welcome message ------------>
