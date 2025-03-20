@@ -4,8 +4,12 @@ const myform = document.querySelectr("#myform")
 const greeting = document.querySelector(".greeting")
 const greetuser = document.querySelector(".greetuser")
 
+window.addEventListener("load", function(event)){
+  event.preventDefault()
+
+
 myform.addEventListener("submit", function(event){
-event.preventDefualt()
+event.preventDefault()
 
 //collect the input value
 let username = document.querySelector("#username")
