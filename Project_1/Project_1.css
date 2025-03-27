@@ -57,25 +57,29 @@ div {
   
 
   .mainBody {
-    width: 400px;
-    height: 150px;
     padding: 50px;
+    width: 400px;
+    height: 185px;
     text-align: center;
     background: #ddd5ff;
     color: white;
     font-size: 20px;
     font-size: 20px
-    border-radius 25px;
-  }
-
-
+  } 
 
   .launchNew{
     width: 426px;
     height: 467px;
     padding: 60px;
     border-radius: 25px;
-    background-image: url(   https://i.imgur.com/vZbULiZ.png);
+    background-image: url( https://i.imgur.com/vZbULiZ.png);
     background-position: center;
     background-repeat:no-repeat;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+
+  .hovernow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   }
