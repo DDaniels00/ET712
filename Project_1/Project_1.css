@@ -1,5 +1,30 @@
-body{background-color: #ffba7d;}
 
+body {
+margin: 0;
+/* parent */
+ul {
+  background-color: #ddd5ff
+}
+/* childs */
+li {
+  display: inline-block;
+}
+background-image: url("https://i.imgur.com/IgZOEeK.png");
+
+
+}
+
+.bannerImage {
+  width: 100%;
+  background-image: url(https://i.imgur.com/K8j0p9d.png);
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 60px;
+  padding: 60px;
+  border-radius: 25px;
+
+
+}
 html, body {
     height: 50%;
     width: 60%;
@@ -22,7 +47,7 @@ div {
 .topHeader {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: #ddd5ff;
     color: white;
     font-size: 30px;
     border-radius: 25px;
@@ -30,22 +55,27 @@ div {
     height: 150px;
   }
   
+
   .mainBody {
+    width: 400px;
+    height: 150px;
     padding: 50px;
     text-align: center;
-    background: wheat;
+    background: #ddd5ff;
     color: white;
     font-size: 20px;
+    font-size: 20px
+    border-radius 25px;
   }
 
-.secondBody {
-   padding: 50px;
-    text-align: center;
-    background: wheat;
-    color: white;
-    font-size: 20px
+
+
+  .launchNew{
+    width: 426px;
+    height: 467px;
+    padding: 60px;
     border-radius: 25px;
-    width: 400px;
-    height: 150px;}
-
-
+    background-image: url(   https://i.imgur.com/vZbULiZ.png);
+    background-position: center;
+    background-repeat:no-repeat;
+  }
