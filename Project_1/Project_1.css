@@ -25,4 +25,7 @@ body{background-color: #ffba7d;}
     text-align: center;
     background: wheat;
     color: white;
-    font-size: 20px}
+    font-size: 20px
+    border-radius: 25px;
+    width: 400px;
+    height: 150px;}
