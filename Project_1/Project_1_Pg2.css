@@ -1,1 +1,32 @@
 
+body {
+    margin: 0;
+    /* parent */
+    ul {
+      background-color: #ddd5ff
+    }
+    /* childs */
+    li {
+      display: inline-block;
+    }
+    background-image: url("https://i.imgur.com/IgZOEeK.png");
+    
+    
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    button {
+        padding: 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+    }
