@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Identification Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home Page</a>
+        <a href="#">About</a>
+    </div>
+    <h1>What is this shape?</h1>
+    <div class="shape-container">
+        <div id="shape"></div>
+    </div>
+    <input type="text" id="answer" placeholder="Type your answer">
+    <button onclick="checkAnswer()">Submit</button>
+    <div class="streak">
+        Good Job! Streak: <span id="streak-counter">0</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
