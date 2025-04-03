@@ -1,9 +1,3 @@
-// List of shapes
-const shapes = ["circle", "triangle", "rectangle", "rhombus", "square", "trapezoid"];
-let currentShape = "";
-let streak = 0;
-
-// Function to generate a new shape
 function generateShape() {
     const randomShape = shapes[Math.floor(Math.random() * shapes.length)];
     currentShape = randomShape;
@@ -14,6 +8,9 @@ function generateShape() {
     shapeElement.style.border = "none";
     shapeElement.style.transform = "none";
     shapeElement.style.clipPath = "none";
+    shapeElement.style.width = "150px"; // Default dimensions
+    shapeElement.style.height = "150px"; // Default dimensions
+    shapeElement.style.backgroundColor = "lightblue"; // Default color
 
     // Style shape based on type
     switch (randomShape) {
@@ -28,14 +25,16 @@ function generateShape() {
             shapeElement.style.borderBottom = "150px solid lightblue";
             break;
         case "rectangle":
+            shapeElement.style.width = "200px";
+            shapeElement.style.height = "100px";
             shapeElement.style.borderRadius = "0";
             break;
         case "rhombus":
             shapeElement.style.clipPath = "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)";
             break;
         case "square":
-            shapeElement.style.height = "150px";
             shapeElement.style.width = "150px";
+            shapeElement.style.height = "150px";
             shapeElement.style.borderRadius = "0";
             break;
         case "trapezoid":
@@ -44,9 +43,15 @@ function generateShape() {
     }
 }
 
-// Function to check the user's answer
 function checkAnswer() {
-    const userAnswer = document.getElementById("answer").value.toLowerCase();
+    const userAnswer = document.getElementById("answer").value.toLowerCase().trim();
+
+    // Check if input matches a valid shape
+    if (!shapes.includes(userAnswer)) {
+        alert("Please enter a valid shape: circle, triangle, rectangle, rhombus, square, or trapezoid.");
+        return;
+    }
+
     if (userAnswer === currentShape) {
         alert("Correct!");
         streak++;
@@ -58,6 +63,3 @@ function checkAnswer() {
         document.getElementById("streak-counter").textContent = streak;
     }
 }
-
-// Initial setup
-generateShape();
