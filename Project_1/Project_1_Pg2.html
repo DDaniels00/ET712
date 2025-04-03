@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Project_1_Pg2.css">
+    <title>Interactive Adventure Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="navbar">
+        <a href="homepage.html">Home Page</a>
+        <a href="about.html">About</a>
+    </div>
+    <h1>Choose Your Adventure!</h1>
+    <div class="options">
+        <div class="option" onclick="navigate('shapes.html')">Shapes</div>
+        <div class="option" onclick="navigate('colors.html')">Colors</div>
+        <div class="option" onclick="navigate('math.html')">Math</div>
+    </div>
 
-<h1> Learning Planets</h1>
-<p><p>
-</body>
-
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <button id="randomButton">Click me!</button>
-    <script src="Project_1_Pg2.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
