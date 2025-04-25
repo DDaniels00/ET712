@@ -5,10 +5,15 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+    /*background-color: #4CAF50;*/
+background: #8F1818;
+background: -webkit-linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(0, 0, 0, 1) 100%);
+background: -moz-linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(0, 0, 0, 1) 100%);
+background: linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(0, 0, 0, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8F1818", endColorstr="#000000", GradientType=0);
+color: white;
+text-align: center;
+padding: 20px 0;
 }
 
 nav {
