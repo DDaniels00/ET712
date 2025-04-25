@@ -7,9 +7,9 @@ body {
 
 
 header {
+    text-align: center;
     background-color: #912424
     color: white;
-    text-align: center;
     padding: 20px 0;
 
 nav {
