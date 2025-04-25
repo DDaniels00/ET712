@@ -7,10 +7,10 @@ body {
 
 
 header {
-    linear-gradient(#912424, #000000)
+    background-color: #912424
+    color: white;
     text-align: center;
     padding: 20px 0;
-}
 
 nav {
     background-color: #333;
