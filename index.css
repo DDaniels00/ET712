@@ -1,6 +1,6 @@
 body {
-    background: #c194e9;
-    background: radial-gradient(circle, rgba(193, 148, 233, 1) 0%, rgba(148, 187, 233, 1) 100%);    margin: 0;
     font-family: Arial, sans-serif;
     border-radius: 30px;
+    background: #c194e9;
+    background: radial-gradient(circle, rgba(193, 148, 233, 1) 0%, rgba(148, 187, 233, 1) 100%);    margin: 0;
 }
