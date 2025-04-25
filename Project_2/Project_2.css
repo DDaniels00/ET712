@@ -5,7 +5,9 @@ body {
 }
 
 header {
-    /*background-color: #4CAF50;*/
+/*background-color: #4CAF50;*/
+/*Basic Bacground Gradient* ----> /
+/*Max Compatibily Webkit*/
 background: #8F1818;
 background: -webkit-linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(0, 0, 0, 1) 100%);
 background: -moz-linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(0, 0, 0, 1) 100%);
@@ -72,7 +74,17 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+/*background-color: #45a049;*/
+/*basic background gradient*/
+/*background: #8F1818;
+background: linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(247, 186, 186, 1) 100%);*/
+
+/*Webkit Gradient*/
+background: #8F1818;
+background: -webkit-linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(247, 186, 186, 1) 100%);
+background: -moz-linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(247, 186, 186, 1) 100%);
+background: linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 50%, rgba(247, 186, 186, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8F1818", endColorstr="#F7BABA", GradientType=0);
 }
 
 footer {
