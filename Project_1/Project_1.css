@@ -18,6 +18,7 @@ body {
 }
 .navbar {
     display: flex;
+    position: sticky;
     justify-content: center;
     background-color: #34495e;
     padding: 10px 0;
