@@ -36,7 +36,9 @@ nav ul li {
 }
 
 nav ul li a {
+    
     display: block;
+    position: sticky;
     color: white;
     text-align: center;
     padding: 14px 20px;
