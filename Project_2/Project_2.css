@@ -89,6 +89,18 @@ background: linear-gradient(180deg, rgba(143, 24, 24, 1) 0%, rgba(84, 8, 8, 1) 5
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8F1818", endColorstr="#F7BABA", GradientType=0);
 }
 
+
+/* From Uiverse.io by adamgiebl */ 
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
