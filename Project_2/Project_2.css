@@ -95,3 +95,8 @@ footer {
     background-color: #333;
     color: white;
 }
+
+.cards {
+   display: flex;
+   justify-content: space-between;
+}
