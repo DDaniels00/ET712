@@ -1,13 +1,14 @@
 import './App.css';
 import User from "./comments"
+
 import".index.css"
 // import images
-import avatar1 from "Lab_12/props-react/src/images/avatar1.png"
-import avatar2 from "Lab_12/props-react/src/images/avatar1.png"
-import avatar3 from "Lab_12/props-react/src/images/avatar1.png"
+import avatar1 from "./images/avatar1.png"
+import avatar2 from "./images/avatar2.png"
+import avatar3 from "./images/avatar3.png"
 
 function App(){
-	returin(
+	return(
 <>
 <h1> User Comments </h1>
 <main className='maincontainer'>

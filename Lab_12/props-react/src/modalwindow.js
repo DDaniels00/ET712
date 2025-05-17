@@ -2,6 +2,11 @@ import React from "react";
 import "./index.css";
 
 const Modalwindow = function(props){
+    //function to close modal window
+    const closemodalwindow =function(){
+        const modalwindow=document.querySelector(".modalwindow")
+        modalwindow.computedStyleMap.display="none"
+    }
     return (
         <>
             {/* Modal window */}
@@ -9,7 +14,7 @@ const Modalwindow = function(props){
                 <div className="modalcontent">
                     <header className="modalheader">
                         <p>Add feedback</p>
-                        <p className="closemodal">&#x58;</p>
+                        <p className="closemodal"onClick={closemodalwindow }>&#x58;</p>
                     </header>
                     <main className="modalbody">
                         <input className="commentarea" type="text" placeholder="Type your comments"/>
