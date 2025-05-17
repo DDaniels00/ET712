@@ -50,3 +50,83 @@ img {
     display: flex;
     justify-content: center;
 }
+/* feedback.js */
+.feedbackcontainer {
+    width: 300px;
+    box-shadow: 2px 2px 5px gray; /* Added missing color */
+    border-radius: 5px;
+    margin: 2%;
+    overflow: hidden;
+}
+
+.content {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+/* Removed misplaced 'gray;' */
+
+.description {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+}
+
+.cardfooter {
+    background-color: darkblue; /* Fixed misplaced 'Idarkblue;' */
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 2rem;
+}
+
+.feedbackcontainer:hover {
+    box-shadow: none;
+    border: solid 2px gray;
+}
+
+/* modalwindow.js */
+.modalwindow {
+    background-color: rgba(50, 50, 50, 0.6); /* Fixed misplaced rgba */
+    position: fixed;
+    inset: 0% 0% 0% 0%;
+    display: none;
+}
+
+.modalcontent {
+    background-color: white;
+    width: 500px;
+    margin: 5rem auto;
+    padding: 1rem;
+}
+
+.modalheader {
+    display: flex;
+    text-align: center;
+    color: darkblue;
+}
+
+.modalheader p:nth-child(1) {
+    width: 92%;
+}
+
+.commentarea {
+    width: 100%;
+    height: 3rem;
+}
+
+.btnpostfeedback {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnpostfeedback:hover, .closemodal:hover {
+    background-color: crimson; 
+    font-weight: bolder;
+    cursor: pointer;
+}
+

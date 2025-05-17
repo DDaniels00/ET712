@@ -1,7 +1,8 @@
 import './App.css';
 import User from "./comments"
 
-import".index.css"
+import "./index.css";
+
 // import images
 import avatar1 from "./images/avatar1.png"
 import avatar2 from "./images/avatar2.png"
