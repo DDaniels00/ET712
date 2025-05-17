@@ -1,6 +1,5 @@
 import './App.css';
-import ''
-
+//import img
 function App() {
   //variable
   const msg = "Welcome to ReactJS"
@@ -10,7 +9,7 @@ function App() {
   }
   return (
     <div>
-      <h1 style={{color:"magenta", textAlign:"center"}}> Dyani Daniels ET712</h1>
+      <h1 style={{color:"crimson", textAlign:"center"}}> Dyani Daniels ET712</h1>
       <p> this is my first react js app</p>
       <p>Bucket List</p>
       <ol>
@@ -22,6 +21,7 @@ function App() {
       <label for="email">Enter an e-mail: </label>
       <input type="text" id="email" placeholder="Enter an email address..."style={{padding: "10px", backgroundColor:"lightgreen"}}/>
       <button type= "submit" style={{backgroundColor:"crimson", padding:"10px 20px"}}>Submit</button>
+      <></>
       style={{width: "500px", display:"block", margin:"auto", border: "groove 10x orange"}}
       <h2 className='subtitle'> Variables in JSX</h2>
       <p> Calling variable msg = {msg}</p>
