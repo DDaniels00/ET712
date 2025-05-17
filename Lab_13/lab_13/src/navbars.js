@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./App.css"; // Fixed incorrect import syntax
+import "./App.css"; 
 
 const Navbars = function () {
     return (
