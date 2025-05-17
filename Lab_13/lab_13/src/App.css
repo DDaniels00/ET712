@@ -1,0 +1,32 @@
+/* navbars.js */
+.title {
+    color: blueviolet;
+    text-align: center;
+    padding: 2%;
+}
+
+.navheader {
+    background-color: aliceblue; /* Fixed incorrect 'Daliceblue' */
+    display: flex;
+    justify-content: center;
+}
+
+.iconlink {
+    width: 30%;
+    padding: 2%;
+}
+
+.navlinks {
+    width: 70%;
+    padding: 2%;
+    color: blueviolet; /* Fixed misplaced 'blueviolet' */
+    display: flex;
+    justify-content: end;
+    background-color: aliceblue;
+}
+
+.tablink {
+    width: 30%;
+    border: none;
+    background-color: aliceblue;
+}

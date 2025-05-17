@@ -13,9 +13,7 @@ const User_feedback = function (props) {
     <>
       <main className="feedbackcontainer">
         <section className="feedbackcard">
-          <div className="content">
-            <p>{props.username}</p>
-          </div>
+          <div className="content"><p>{props.username}</p></div>
           <div className="description">{props.children}</div>
           <div className="cardfooter">
             <p className="addicon" onClick={openmodalwindow}>
