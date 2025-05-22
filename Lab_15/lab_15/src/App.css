@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: brown;
+  padding: 1em;
+}
+
+/* Slice Wrapper */
+.slicewrapper {
+  width: 600px;
+  margin: 2rem auto;
+  box-shadow: 1px 1px 5px lightgray;
+}
+
+/* Number Wrapper */
+.numberWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; 
+  margin: 3rem auto; 
+  padding: 2rem; 
+  background-color: lightblue;
+  color: white;
+}
+
+.numberWrapper > div {
+  border: solid gray 2px;
+  width: 70px; 
+  height: 70px; 
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  margin: 1rem; 
+}
+
+/* Active Number */
+.active {
+  background-color: orangered;
+  box-shadow: 0px 0px 5px 1px gray;
+}
+
+/* Message Styling */
+.msg {
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Button Group */
+.btngroup {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btngroup > button {
+  width: 30%;
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btngroup > button:hover {
+  background-color: darkblue;
+  box-shadow: 1px 1px 5px gray;
+  font-weight: bolder;
+}
+
+/* Open & Close Button */
+.info {
+  width: 900px;
+  padding: 2rem;
+  margin: auto;
+}
+
+.readmore_btn {
+  margin-left: 1rem;
+  background-color: orangered;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hidden Text */
+.hiddentext p {
+  width: 900px;
+  padding: 2rem;
+  background-color: aliceblue;
+  margin: auto;
+}
